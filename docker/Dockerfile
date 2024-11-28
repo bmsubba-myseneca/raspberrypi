@@ -101,7 +101,7 @@ ARG CACHEBUST=1
 
 ######################################### Viper Producer directory
 
-RUN git clone --depth 1 https://github.com/smaurice101/transactionalmachinelearning.git
+RUN git clone --depth 1 https://github.com/bmsubba-myseneca/transactionalmachinelearning.git
 
 RUN cp -R transactionalmachinelearning Viper-produce/transactionalmachinelearning
 
@@ -314,7 +314,7 @@ RUN chmod -R +x Hpde
 
 
 RUN echo "Replace VIPER.ENV"
-RUN git clone --depth 1 https://github.com/smaurice101/raspberrypi.git
+RUN git clone --depth 1 https://github.com/bmsubba-myseneca/raspberrypi.git
 
 RUN chmod -R +x raspberrypi
 
